@@ -1,0 +1,7 @@
+22.11.2009 (1.12) - doplneno nekolik textu, trosku upravena grafika administrace
+
+9.8.2009 (1.11) - opravena chyba ve vypisech v profilu, pridana moznost zobrazeni pouze jednoho zaznamu (vysledek vyhledavani)
+
+8.8.2009 (1.1) - opravena chyba v odkazu na profil toho, kdo vložil záznam do databáze
+
+12.6.2009 (1.0) - první zveøejnìná verze modulu

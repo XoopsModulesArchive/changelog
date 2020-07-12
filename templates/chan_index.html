@@ -1,0 +1,14 @@
+<h2 align="center"><{$chan_nadpis}></h2>
+
+<p><{$chan_intro}></p>
+
+<table class="outer">
+<tr><th align="center" width=20%><{$chan_kdy}></th><th align="center"><{$chan_co}></th><th align="center"><{$chan_kdo}></th></tr>
+<{foreach item=vypis from=$vypis}>
+<tr class="<{cycle values='even,odd'}>"> <td valign="top"><b><{$vypis.datum}></b><br><b><{$vypis.cas}></b></td><td> <{$vypis.text}></td><td align="center"><a href="../../userinfo.php?uid=<{$vypis.uid}>" title="<{$vypis.uname}>"><{$vypis.uname}></a></td></tr>
+<{/foreach}>
+</table>
+
+<table width=100%>
+<tr><td width=20% align="left"><{$chan_novejsi}></td><td width=60% align="center"><b><{$chan_ciselnik}></b></td><td width=20% align="right"><{$chan_dalsi}></td></tr>
+</table>
